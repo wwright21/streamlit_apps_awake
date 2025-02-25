@@ -3,7 +3,6 @@ name: Wake Up Streamlit Apps
 on:
   schedule:
     - cron: "0 6,18 * * *"
-  workflow_dispatch: # Allows manual execution
 
 jobs:
   wake_streamlit:
