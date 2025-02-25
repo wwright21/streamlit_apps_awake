@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-import datetime
+from datetime import datetime
 
 streamlit_apps = [
     "https://test-app-247.streamlit.app/",
