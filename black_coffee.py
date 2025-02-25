@@ -1,11 +1,18 @@
 from playwright.sync_api import sync_playwright
 
 streamlit_apps = [
-    "https://test-app-247.streamlit.app/",
+    "https://test-app-247.streamlit.app/",  # app simply for testing purposes
+    "https://data-cleaning-app-arc.streamlit.app/",  # WORTH grant cleaning app
+    # Baldwin Co. AL migration dashy
     "https://baldwin-county-migration.streamlit.app/",
-    "https://nashville-dash.streamlit.app/",
-    "https://kolter-nashville.streamlit.app/",
-    "https://11-10-cleaning.streamlit.app/"
+    "https://nashville-dash.streamlit.app/",  # generic Nashville dashy
+    "https://kolter-nashville.streamlit.app/",  # Kolter's Nashville dashy
+    # Excel automation cleaning app for Uncle David
+    "https://11-10-cleaning.streamlit.app/",
+    "https://abi-t1000.streamlit.app/",  # Layla's version 2 app
+    "https://gwinnett-housing.streamlit.app/",  # Gwinnett Housing dashy
+    "https://dekalb-housing-desktop.streamlit.app/",  # Dekalb Housing dashy
+
 ]
 
 
