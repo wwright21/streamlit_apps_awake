@@ -2,9 +2,9 @@ name: Wake Up Streamlit Apps
 
 on:
   schedule:
-    - cron: "15 11 * * *"
+    - cron: "40 16 * * *"
     - cron: "45 19 * * *"
-  workflow_dispatch: # Allows manual execution
+  workflow_dispatch:
 
 jobs:
   wake_streamlit:
