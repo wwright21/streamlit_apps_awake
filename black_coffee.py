@@ -6,6 +6,7 @@ streamlit_apps = [
     "https://baldwin-county-migration.streamlit.app/",
     "https://nashville-dash.streamlit.app/",
     "https://kolter-nashville.streamlit.app/",
+    "https://11-10-cleaning.streamlit.app/"
 ]
 
 
